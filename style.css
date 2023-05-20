@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding-top: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.image1{
+  display: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+   
+}
+
+.logo{
+	width:20vw;
+	height:10vh;
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 0px;
+	opacity: 2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	bottom: 0;
+}
+
+.sociallinks {
+	background:  #CAC6CB;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+
+}
+
+.sociallinks .fa{
+ 
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  color: black;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 30px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+
+ }
+.sociallinks .fa:hover{
+	transform: translate(0,-5px);
+	transition: 0.5s;
+}
+
+.sociallinks :nth-child(1) .fa:hover{
+	background-color: #3b5999;
+	color:white;
+}
+
+.sociallinks :nth-child(2) .fa:hover{
+	background-color: #007bb5;
+	color:white;
+}
+
+.sociallinks :nth-child(3) .fa:hover{
+	background-color: #c32aa3;
+	color:white;
+}
+
+.sociallinks :nth-child(4) .fa:hover{
+	background-color: #fbbc05;
+	color:white;
+}
+
+
+.active{
+	font-weight: bold;
+	color: red;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	font-size: 25px;
+	font-family: 'Acme', sans-serif;
+}
+
+.navbar-nav{
+	font-family: 'Acme', sans-serif;
+}
+
+
+.copyright{
+	text-align: center;
+	color: black;
+	font-family: 'Chilanka', cursive;
+	font-weight: bold;
+	background-color: #CAC6CB;
+	font-size: 10px;
+	padding-right: 3%;
+	opacity: 0.9;
+
+}
+
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 35%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+        font-weight: bold;
+        font-size: 2.5em;
+       font-family: 'Acme', sans-serif;
+       padding-left: 10%;
+    }
+
+.box .btn{
+	padding:10px,20px,10px,20px;
+	color: black;
+}
+
+
+.mypara{
+text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	width: 100%;
+}
+
